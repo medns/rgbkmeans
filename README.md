@@ -1,4 +1,4 @@
-# RGB K-means
+# RGB K-means clustering
 A js RGB [K-means clustering](http://en.wikipedia.org/wiki/K-means_clusteri) library.
 
 # Install
