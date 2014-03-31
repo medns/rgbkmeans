@@ -1,4 +1,4 @@
-module.exports = {
+define({
   euclidean: function(v1, v2) {
       var total = 0;
       for (var i = 0; i < v1.length; i++) {
@@ -20,4 +20,4 @@ module.exports = {
      }
      return max;
    }
-};
+});

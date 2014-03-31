@@ -1,25 +1,14 @@
 {
-   "name": "clusterfck",
-   "description": "K-means and hierarchical clustering",
+   "family": "super",
+   "name": "kmeans",
    "version": "0.5.1",
-   "author": "Heather Arthur <fayearthur@gmail.com>",
+   "description": "RGB K-means clustering",
+   "author": "superzheng",
    "repository": {
       "type": "git",
-      "url": "http://github.com/harthur/clusterfck.git"
+      "url": "http://github.com/medns/clusterfck.git"
    },
-   "directories": {
-      "lib": "./lib"
-   },
-   "dependencies" : {
-  
-   },
-   "devDependencies": {
-      "uglify-js" : "*",
-      "underscore": "*",
-      "nomnom" : "*",
-      "cradle" : "*",
-      "connect": "*",
-      "browserify": "*"
-   },
-   "main": "./lib/clusterfck"
+   "spm": {
+        "output": ["kmeans.js"]
+   }
 }
