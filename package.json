@@ -6,7 +6,7 @@
    "author": "superzheng",
    "repository": {
       "type": "git",
-      "url": "http://github.com/medns/clusterfck.git"
+      "url": "http://github.com/medns/rgbkmeans.git"
    },
    "spm": {
         "output": ["kmeans.js"]
